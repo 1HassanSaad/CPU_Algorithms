@@ -1,0 +1,13 @@
+#!bin/bash
+echo fifo
+g++ fifo.cpp -o fifo
+./fifo
+echo rr
+g++ rr.cpp -o rr
+./rr
+echo nonsjf
+g++ nonsjf.cpp -o nonsjf
+./nonsjf
+echo prisjf
+g++ prisjp.cpp -o prisjp
+./prisjp
